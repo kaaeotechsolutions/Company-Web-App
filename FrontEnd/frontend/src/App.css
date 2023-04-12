@@ -5,22 +5,9 @@ margin: 0;
 }
 html {
     scroll-behavior: smooth;
+     overflow-x: hidden;
   }
   
-body{
-    scroll-behavior: smooth;
-    overflow-x: hidden;
-}
-
-.hero, .about{
-    height: 80vh;
-}
-
-@media (max-width: 786px) {
-    .hero, .about{
-    height: 100vh;
-}
-}
 
 @media (min-width: 1080px){
 .background_image{
@@ -45,6 +32,7 @@ body{
 }
 .nav-close{
     transform: translateX(50vw);
+    margin-right: 999999px;
 }
 .nav-animation{
     transition: transform 1s ease-in-out;

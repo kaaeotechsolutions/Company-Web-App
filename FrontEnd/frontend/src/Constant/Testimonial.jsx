@@ -16,7 +16,7 @@ const Testimonial = () => {
         <Swiper
             modules={[Autoplay]}
             autoplay={{ delay: 3000 }}
-            className="h-[300px] mt-4 w-[60vw]">
+            className="lg:h-[300px] mt-4 w-[90vw] lg:w-[60vw]">
             {
                 testimonial.map((value) => {
                     return (

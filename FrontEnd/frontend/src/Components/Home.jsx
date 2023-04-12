@@ -33,13 +33,13 @@ const Home = () => {
       <div className="background_image">
         <div className="bg-shape shadow-lg shadow-slate-50">
           <Navbar />
-          <div className="hero grid place-content-center ">
+          <div className="lg:h-screen mt-5 lg:mt-0 grid place-content-center ">
             <Hero home={true} btn={detail.btn} detail={detail.detail} link={detail.link} title={detail.title} />
           </div>
         </div>
       </div>
       <HeadTitle name="About Us" />
-      <div className="about grid place-content-center">
+      <div className="lg:h-screen mt-5 lg:mt-0 grid place-content-center">
         <Hero image={aboutDetail.image} btn={aboutDetail.btn} detail={aboutDetail.detail} link={aboutDetail.link} title={aboutDetail.title} />
       </div>
       <HeadTitle name="service" />

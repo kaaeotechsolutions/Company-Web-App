@@ -14,7 +14,7 @@ const Team = () => {
                                 <img src={value.image} alt="" class="flex-shrink-0 object-cover h-64 rounded-sm sm:h-96 dark:bg-gray-500 aspect-square" />
                                 <div>
                                     <h2 class="text-xl font-semibold">{value.name}</h2>
-                                    <span class="block pb-2 text-sm dark:text-gray-400">{value.position} of Company Inc.</span>
+                                    <span class="block pb-2 text-sm dark:text-gray-400">{value.position} of Company.</span>
                                     <p>{value.detail}</p>
                                 </div>
                             </div>

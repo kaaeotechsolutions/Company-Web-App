@@ -8,7 +8,7 @@ const Footer = () => {
 
   return (
     <footer className='flex h-full items-end justify-center '>
-      <div className="w-full flex gap-4 justify-center items-center flex-col h-[200px] pt-4 text-slate-50 bg-slate-950">
+      <div className="w-full flex gap-4 j=fle justify-center items-center flex-col md:h-[200px] pt-4 text-slate-50 bg-slate-950">
         <ul className="flex lg:text-xl h-full items-center justify-end gap-4 text-gray-50">
           {
             navLink.map((value) => {
@@ -18,7 +18,7 @@ const Footer = () => {
             })
           }
         </ul>
-        <ul className='flex gap-4 justify-center'>
+        <ul className='flex md:flex-row flex-col gap-4 justify-center items-center'>
           {service.map((value)=>{
             return (
               <li key={value.title} className=" capitalize">
@@ -41,7 +41,7 @@ const Footer = () => {
           }
         </ul>
         <div className=" text-center capitalize font-medium mb-4 mt-2">
-          <p className="">Content and materials on website belong to KaaeoTech Solution™, All © Copyright reserved to <a href="/" className=" font-bold text-slate-300 hover:text-purple-400">KaaeoTech Solution</a>  {currentYear}.</p>
+          <p className="">Content and materials on website belong to KaaeoTech Solution™, All © Copyright reserved to <NavLink to='/' className=" font-bold text-slate-300 hover:text-purple-400">KaaeoTech Solution</NavLink>  {currentYear}.</p>
         </div>
       </div>
     </footer>

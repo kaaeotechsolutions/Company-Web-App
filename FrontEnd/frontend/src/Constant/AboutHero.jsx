@@ -5,7 +5,7 @@ const AboutHero = () => {
     return (
         <section className="flex lg:flex-row flex-col items-center lg:items-start gap-4 justify-center mt-24">
             <main className="flex justify-center items-center">
-                <div className=" shadow-md bg-slate-50 w-3/4 lg:w-[60vw] p-10">
+                <div className=" shadow-md bg-slate-50 w-5/6 lg:w-[60vw] p-10">
                     <h1 className="text-3xl mb-4 font-bold">About Us</h1>
                     <p className="">
                         We are an IT and software development company based in India. We have been in the industry since 2022 and have worked with Many clients.
@@ -16,7 +16,7 @@ const AboutHero = () => {
                 </div>
             </main>
             <aside className="h-full flex justify-center items-center">
-                <div className="w-3/4 lg:w-[30vw] shadow-md bg-slate-50">
+                <div className="w-5/6 lg:w-[30vw] shadow-md bg-slate-50">
                     <img src={aside_img} alt="" className="" />
                     <div className=" p-4">
                         <h3 className=" text-xl font-semibold">How we work</h3>

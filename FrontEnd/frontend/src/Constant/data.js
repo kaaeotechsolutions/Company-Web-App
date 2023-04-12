@@ -181,58 +181,60 @@ export const socialLink = [{
 export const team = [{
   image:Mohd_Moizuddin,
   name:"Mr. Mohd Moizuddin",
-  position:"Director",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  position:"Founder & MD",
+  detail:""
 },
 {
   image:"",
   name:"Mr. Mohd Moinuddin",
-  position:"Director",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  position:"Co-Founder & CFO",
+  detail:""
 },
 {
   image:"",
   name:"Mr. L. Narayan Tiwari",
-  position:"Director",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  position:"Executive Director",
+  detail:""
 }]
 
 export const testimonial = [{
-  image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
-  name:"Will Smith",
-  position:"CEO",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+  image:"https://zolalearningacademy.com/wp-content/uploads/2022/11/Zola-Logo-1-1024x487.png",
+  name:"Zanaib Rumana",
+  position:"Founder & MD",
+  detail:"Hi everyone, this is Zanaib Rumana we were able to increase the functionality of our website dramatically while cutting our costs. Our website is much easier to use, has tons of more features than before and is incredibly easy to maintain. We could be happier with our new website! Thanks"
 },
-{
-  image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
-  name:"Robart Downy",
-  position:"CTO",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-},
-{
-  image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
-  name:"Petter Parker",
-  position:"Manager",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-},
-{
-  image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
-  name:"Will Smith",
-  position:"CEO",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-},
-{
-  image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
-  name:"Robart Downy",
-  position:"CTO",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-},
-{
-  image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
-  name:"Petter Parker",
-  position:"Manager",
-  detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
-}]
+// {
+//   image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
+//   name:"Robart Downy",
+//   position:"CTO",
+//   detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+// },
+// {
+//   image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
+//   name:"Petter Parker",
+//   position:"Manager",
+//   detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+// },
+// {
+//   image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
+//   name:"Will Smith",
+//   position:"CEO",
+//   detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+// },
+// {
+//   image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
+//   name:"Robart Downy",
+//   position:"CTO",
+//   detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+// },
+// {
+//   image:"https://tecdn.b-cdn.net/img/Photos/Avatars/img%20%2810%29.jpg",
+//   name:"Petter Parker",
+//   position:"Manager",
+//   detail:"Lorem ipsum dolor sit amet consectetur, adipisicing elit. Lorem ipsum dolor sit amet consectetur, adipisicing elit."
+// }
+]
+
 
 export const detail = [{
     image:Strategys,

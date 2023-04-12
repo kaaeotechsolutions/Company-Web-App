@@ -1,7 +1,7 @@
 import React from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
-import axios from 'axios';
+// import axios from 'axios';
 import Loading from '../Constant/Loading';
 import 'react-phone-number-input/style.css'
 import PhoneInput from 'react-phone-number-input'
