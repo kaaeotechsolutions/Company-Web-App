@@ -6,6 +6,10 @@ import Cards from '../Constant/Cards';
 import HeroImage from '../assets/heroimageDev.webp'
 import AboutImg from '../assets/aboutus.jpg'
 import Form from '../Constant/Form'
+import Map from '../Constant/Map';
+import HeadTitle from '../Constant/HeadTitle';
+import WhatappHoverBtn from '../Constant/WhatappHoverBtn';
+
 
 const detail = {
   detail: "Our mission is to transform the dynamics of the industry by offering trusted, supporting and quality solutions. We aim to enhance the business growth of our customers with innovative design and development solutions and deliver market-defining high-quality solutions that build value and constant competitive edge for our clients around the globe.",
@@ -16,8 +20,8 @@ const detail = {
 }
 
 const aboutDetail = {
-  detail: "Our mission is to transform the dynamics of the industry by offering trusted, supporting and quality solutions. We aim to enhance the business growth of our customers with innovative design and development solutions and deliver market-defining high-quality solutions that build value and constant competitive edge for our clients around the globe.",
-  title: "About our company",
+  detail: "With our talented team of professionals, we offer Best Web Designer services, Graphic Designing solutions, technical services, digital marketing and many more. We have risen from the startup stage to a full-fledged tech company that has been conferred with accolades.",
+  title: "Kaaeotech we challenge our limits to fly high.",
   btn: "our services",
   image: AboutImg,
   link: "/service"
@@ -34,23 +38,18 @@ const Home = () => {
           </div>
         </div>
       </div>
-      <div className="flex my-2 flex-col w-full justify-center items-center">
-        <h2>About Us</h2>
-        <hr className='my-2 h-1 rounded-md bg-black w-96' />
-      </div>
+      <HeadTitle name="About Us" />
       <div className="about grid place-content-center">
         <Hero image={aboutDetail.image} btn={aboutDetail.btn} detail={aboutDetail.detail} link={aboutDetail.link} title={aboutDetail.title} />
       </div>
-      <div className="flex my-2 flex-col w-full justify-center items-center">
-        <h2>Services</h2>
-        <hr className='my-2 h-1 rounded-md bg-black w-96' />
-      </div>
+      <HeadTitle name="service" />
       <Cards />
-      <div className="flex my-2 flex-col w-full justify-center items-center">
-        <h2>Contact Us</h2>
-        <hr className='my-2 h-1 rounded-md bg-black w-96' />
+      <HeadTitle name="contact us" />
+      <div className="grid lg:grid-cols-2">
+        <Map />
+        <Form />
       </div>
-      <Form />
+      <WhatappHoverBtn/>
       <Footer />
     </div>
   )

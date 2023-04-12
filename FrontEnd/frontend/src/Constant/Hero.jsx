@@ -10,21 +10,21 @@ const Hero = ({ home, btn, title, detail, image, link }) => {
       <div className='flex w-full justify-center items-center bg-transparent'>
         <div className="lg:flex w-5/6">
           <div className="w-full order-2 flex flex-col justify-center items-center lg:w-1/2">
-          <h2 className='text-2xl capitalize my-4 font-semibold'>
-            {
-              home
-              ?
-               <Typewriter
-              options={{
-                strings: [title],
-                autoStart: true,
-                loop: true,
-              }}
-            />
-            :
-            title
-            }
-           
+            <h2 className='text-2xl capitalize text-center my-2 font-semibold'>
+              {
+                home
+                  ?
+                  <Typewriter
+                    options={{
+                      strings: [title],
+                      autoStart: true,
+                      loop: true,
+                    }}
+                  />
+                  :
+                  <p className=" text-xl"> <span className='grid text-2xl font-bold text-red-600'>{title.slice(0, 9)}</span> {title.slice(10)}</p>
+              }
+
             </h2>
             <p className="mx-4 w-4/5 my-4 text-center lg:text-lg">
               {detail}

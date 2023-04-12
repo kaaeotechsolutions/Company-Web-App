@@ -4,22 +4,22 @@ import { NavLink } from 'react-router-dom'
 import { RxHamburgerMenu, RxCross1 } from 'react-icons/rx'
 import { navLink } from './data'
 
-const Navbar = () => {
+const Navbar = ({about}) => {
   const [toggle, setToggle] = useState(false)
 
 
   return (
-    <nav className='lg:h-24 h-10 relative'>
-      <div className=" shadow-md md:fixed w-full flex justify-evenly items-center">
+    <nav className={`${about && " text-emerald-950"} lg:h-24 z-50 h-10 relative text-slate-800`}>
+      <div className=" shadow-md backdrop-blur-md md:fixed w-full flex justify-evenly items-center">
         <div className="lg:w-1/2 mx-2 pl-4 lg:pl-8 flex justify-start">
           <NavLink to='/' className=''><img src={Logo} alt="" className='w-36 lg:w-48' /></NavLink>
         </div>
         <div className="lg:w-1/2 mx-2">
-          <ul className="md:flex hidden pr-4 lg:pr-8 lg:text-2xl h-full items-center justify-end gap-4 text-slate-800">
+          <ul className="md:flex hidden pr-4 lg:pr-8 lg:text-2xl h-full items-center justify-end gap-4">
             {
               navLink.map((value) => {
                 return (
-                  <li><NavLink to={value.link} className=" hover:text-blue-300">{value.title}</NavLink></li>
+                  <li key={value.link}><NavLink to={value.link} className=" hover:text-blue-300">{value.title}</NavLink></li>
                 )
               })
             }
@@ -43,7 +43,7 @@ const Navbar = () => {
             {
               navLink.map((value) => {
                 return (
-                  <li><NavLink to={value.link} className=" hover:text-blue-300">{value.title}</NavLink></li>
+                  <li key={value.link}><NavLink to={value.link} className=" hover:text-blue-300">{value.title}</NavLink></li>
                 )
               })
             }

@@ -3,7 +3,10 @@ input[type=number]::-webkit-outer-spin-button {
 -webkit-appearance: none;
 margin: 0;
 }
-
+html {
+    scroll-behavior: smooth;
+  }
+  
 body{
     scroll-behavior: smooth;
     overflow-x: hidden;
@@ -34,18 +37,9 @@ body{
     background-size: cover;
 }
 }
-/* .bg-shape::after{
-    background-image: url("./assets/wave.svg");
-    background-position: top
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.bg-dot{
-    background-image: url("./assets/dot-bg.svg");
-    background-position: top;
-    background-repeat: no-repeat;
-    background-size: cover;
-} */
+
+/* nav style */
+
 .nav-open{
     transform: translateX(0vw);
 }
@@ -55,3 +49,11 @@ body{
 .nav-animation{
     transition: transform 1s ease-in-out;
 }
+
+.about_bg_image{
+    background-image: url("./assets/about_bg-image.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+  
